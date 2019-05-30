@@ -1,6 +1,6 @@
 import 'dart:async' show Future;
-import 'dart:io' show File;
 import 'dart:typed_data';
+import 'package:cached_network_image/src/dummy_cache_manager.dart';
 import 'package:flutter_web_ui/ui.dart' as ui show instantiateImageCodec, Codec;
 
 import 'package:flutter_web/foundation.dart';

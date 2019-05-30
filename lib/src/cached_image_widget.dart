@@ -1,3 +1,4 @@
+import 'package:cached_network_image/src/dummy_cache_manager.dart';
 import 'package:flutter_web/foundation.dart';
 import 'package:flutter_web/material.dart';
 import 'package:flutter_web/widgets.dart';

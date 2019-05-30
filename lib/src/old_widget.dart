@@ -1,6 +1,8 @@
 import 'package:cached_network_image/src/cached_network_image_provider.dart';
+import 'package:cached_network_image/src/dummy_cache_manager.dart';
 import 'package:flutter_web/foundation.dart';
 import 'package:flutter_web/material.dart';
+
 
 class CachedNetworkImage extends StatefulWidget {
   static List<Object> _registeredErrors = <Object>[];
