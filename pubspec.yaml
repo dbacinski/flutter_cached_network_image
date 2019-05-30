@@ -8,9 +8,20 @@ environment:
   sdk: ">=2.0.0-dev.28.0 <3.0.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
-  flutter_cache_manager: "^0.3.2"
+  flutter_web: any
 
 dev_dependencies:
   test: ^1.3.0
+
+
+# flutter_web packages are not published to pub.dartlang.org
+# These overrides tell the package tools to get them from GitHub
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
